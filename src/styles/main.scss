@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(193, 0, 0);
+}
+
+@font-face {
+    font-family: Incriveis;
+    src: url(../../assets/fonts/Incredibles-font.ttf);
+    font-weight: 400;
+}
+
+.hero {
+    padding: 3svh 6svw;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+    img {
+        width: 100%;
+        max-width: 780px;
+        margin-bottom: 2em;
+    }
+
+    h1 {
+        max-width: 780px;
+        font-family: Incriveis, sans-serif;
+        text-transform: lowercase;
+        letter-spacing: 1vw;
+        color: rgb(0, 0, 0);
+        font-size: clamp(1.6em, 10vw, 6em);
+        right: 2em;
+        top: 1em;
+        text-shadow: 0.05em 0.05em #ff5e00;
+        
+    }
+    
+    
+    
+}
