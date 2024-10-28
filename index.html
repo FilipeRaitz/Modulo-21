@@ -7,9 +7,112 @@
     <link rel="stylesheet" href="./dist/css/main.css">
 </head>
 <body>
+    <header>
+        <nav class="navbar">
+            <h2 class="navbar__logo">Os Incriveis</h2>
+            <ul class="navbar__links">
+                <a href="#hero__title">
+                    <li class="navbar__links__item">
+                        Crítica
+                    </li> 
+                </a>   
+                <a href="#sinopse">
+                    <li class="navbar__links__item">
+                        Sinopse
+                    </li>
+                </a>
+                <a href="#onde-assistir">
+                    <li class="navbar__links__item">
+                        Onde Assistir
+                    </li>
+                </a>
+            </ul>
+        </nav>
+    </header>
     <section class="hero">
             <img src="./src/images/incriveis-logo.png" alt="">
-            <h1>Os Incriveis</h1>
+            <h1 class="hero__title" id="hero__title">Os Incriveis</h1>
+            <p class="hero__subtitle">
+                Prepare-se para uma aventura épica de ação, comédia e muito coração! Viva as emocionantes aventuras da família Pêra, que volta à ativa para salvar o mundo, enquanto tenta lidar com os desafios do dia a dia.
+            </p>
+    </section>
+    <section class="critics">
+        <h2 class="section-title">
+            Sucesso de público e de crítica
+        </h2>
+        <ul class="critics__reviews">
+            <li class="critics__reviews__item">
+                <i>"Uma animação brilhante com o equilíbrio perfeito entre ação e emoção."</i><br>
+                <b>— The New York Times</b>
+            </li>
+            <li class="critics__reviews__item">
+                <i>"A Pixar supera suas próprias expectativas com um filme que é divertido para todas as idades."</i><br>
+                <b>— Rolling Stone</b>
+            </li>
+            <li class="critics__reviews__item">
+                <i>"Uma obra-prima da animação moderna. 'Os Incríveis' traz personagens cativantes e uma história emocionante que aquece o coração."</i><br>
+                <b>— IGN</b>
+            </li>
+            <li class="critics__reviews__item">
+                <i>"Um filme cheio de ação, com humor afiado e uma lição de vida sobre família."</i><br>
+                <b>— Variety</b>
+            </li>
+        </ul>
+        <ul class="critics__awards">
+            <li class="critics__awards__item">
+                <img src="./dist/images/oscar-estatueta.png" alt="Oscar">
+                <p>
+                    Oscar de Melhor Animação <br>
+                    Oscar de Melhor Mixagem de Som
+                </p>
+            </li>
+            <li class="critics__awards__item">
+                <p>Annie Award de Melhor Animação</p>
+            </li>
+            <li class="critics__awards__item">
+                <p>Critics' Choice Award de Melhor Animação</p>
+            </li>
+            <li class="critics__awards__item">
+                <p>Hugo Award de Melhor Animação</p>
+            </li>
+        </ul>
+    </section>
+    
+    <section class="sinopse" id="sinopse">
+        <h2 class="section-title">
+            Uma jornada de Ação e Coração
+        </h2>
+        <p class="sinopse__text">
+            Bob e Helen Pêra eram os maiores super-heróis do planeta. Como Sr. Incrível e Mulher-Elástica, eles lutaram contra o crime e salvaram vidas diariamente, até que tiveram que se esconder e levar uma vida normal com seus três filhos. Mas quando uma nova ameaça emerge, Bob é convocado para voltar à ação e, dessa vez, toda a família será testada em uma batalha épica para salvar o mundo — e a si mesmos.
+        </p>
+        <div class="sinopse__trailer">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/ftBvKUAagnU?si=SFc4DZxRDVZTY0lO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+    <section class="onde-assistir">
+        <h2 class="section-title" id="onde-assistir">
+            Assista nos seus streamings favoritos
+        </h2>
+        <ul class="onde-assistir__items">
+            <a href="#" class="onde-assistir__items__link">
+                <li class="onde-assistir__items__item">
+                    <img src="./dist/images/logo-disneyplus-branca-256.png" alt="disney plus" class="streaming-logo">
+                    <p>(incluso no serviço)</p>
+                </li>
+            </a>
+            <a href="#" class="onde-assistir__items__link">
+                <li class="onde-assistir__items__item">
+                    <img src="./dist/images/logo-apple-tv-branca-256.png" alt="apple tv" class="streaming-logo">
+                    <p>(aluguel ou compra)</p>
+                </li>
+            </a>
+            <a href="#" class="onde-assistir__items__link">
+                <li class="onde-assistir__items__item">
+                    <img src="./dist/images/logo-prime-video-branca-256.png" alt="prime video" class="streaming-logo">
+                    <p>(aluguel ou compra)</p>
+                </li>
+            </a>
+        </ul>
     </section>
 </body>
 </html>
